@@ -69,4 +69,21 @@ function printSuperglob()
 }
 
 printSuperglob();
+
+
+function varInside(){
+    $insideVar=234;
+    echo $insideVar;
+}
+
+$var=1231;
+$newVar= $var + $insideVar;
+if($newVar==$var )
+    echo "we can't access insideVar!";
+
+else
+    echo $newVar;
+
+
+
 ?>
