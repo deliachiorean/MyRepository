@@ -46,6 +46,13 @@ function getSir($sir){
 
 }
 
+function getArray($sir){
+
+    $var=explode(",",$sir);
+    return $var;
+
+}
+
 $var=NULL;
 echo $var;
 
