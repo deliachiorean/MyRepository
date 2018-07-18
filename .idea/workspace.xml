@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="42f057a6-b413-4db7-8afc-168c0ad03387" name="Default" comment=" data types">
-      <change afterPath="$PROJECT_DIR$/vars.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/errLog.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/errors.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ctrStruct.php" beforeDir="false" afterPath="$PROJECT_DIR$/ctrStruct.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/types.php" beforeDir="false" afterPath="$PROJECT_DIR$/types.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -46,15 +45,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="const.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/const.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="types.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/types.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -82,11 +72,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ctrStruct.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ctrStruct.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ctrStruct.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
               <caret line="108" column="12" lean-forward="true" selection-start-line="108" selection-start-column="12" selection-end-line="108" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="errors.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/errors.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="errLog.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/errLog.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="612">
+              <caret line="36" column="18" lean-forward="true" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
+              <folding>
+                <element signature="e#6#91#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -96,15 +107,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
               <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="myPage.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myPage.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -132,6 +134,8 @@
         <option value="$PROJECT_DIR$/types.php" />
         <option value="$PROJECT_DIR$/vars.php" />
         <option value="$PROJECT_DIR$/ctrStruct.php" />
+        <option value="$PROJECT_DIR$/errLog.php" />
+        <option value="$PROJECT_DIR$/errors.php" />
       </list>
     </option>
   </component>
@@ -148,8 +152,9 @@
     <servers />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="557" />
-    <option name="width" value="1238" />
+    <option name="x" value="173" />
+    <option name="y" value="52" />
+    <option name="width" value="1485" />
     <option name="height" value="1017" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -207,18 +212,18 @@
       <workItem from="1531809579956" duration="7689000" />
       <workItem from="1531817287402" duration="2320000" />
       <workItem from="1531820602485" duration="14759000" />
-      <workItem from="1531895725312" duration="15291000" />
+      <workItem from="1531895725312" duration="19738000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40059000" />
+    <option name="totallyTimeSpent" value="44506000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="446" y="0" width="990" height="813" extended-state="0" />
+    <frame x="139" y="42" width="1188" height="813" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17741935" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1462766" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -227,7 +232,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.22599705" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.07680945" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -492,6 +497,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="108" column="12" lean-forward="true" selection-start-line="108" selection-start-column="12" selection-end-line="108" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/errLog.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="18" lean-forward="true" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
+          <folding>
+            <element signature="e#6#91#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/errors.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
