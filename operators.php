@@ -6,6 +6,16 @@
  * Time: 09:49
  */
 
+$m=1;
+$mm="1";
+//if($m=$mm) echo "first";
+if($m==$mm) echo "equal";
+if($m===$mm) echo "perfectly identical";
+
+
+echo $m**$mm."<hr>";
+
+
 $a=($b=4)+3;
 echo "a= ".$a."<br>"."b=". $b."<hr>";
 
@@ -79,7 +89,7 @@ echo fand(5,22)."<hr>";
 
 
 
-$var=$_POST["nrs"];
+$var="1,4,7,8";
 //echo $var;
 $n=explode(",",$var);
 $result=array();
@@ -95,3 +105,146 @@ foreach ( $result as $s)
     $var.="<li>$s</li>";
 $var.="</ul>";
 echo "Numerele pare dintre cele introduse sunt : $var"."<hr>";
+
+
+$x=2;
+function f(&$x){
+    return $x++;
+}
+echo $x."<br>";
+f($x);
+echo  "new: ".$x."<hr>";
+
+
+////op precedence
+
+$a=3;
+$b=4;
+$c=5;
+
+echo $a+$b *$c."<br>";
+echo ($a+$b) * $c."<br>";
+
+echo ($a-$b )/$c."<br>";
+echo $a-$b /$c."<hr>";
+
+
+function comp($a,$b)   {
+    if(($a>5) and ($b <5))
+        return 1;
+    else return -1;
+
+
+
+}
+
+function comp2($a,$b)   {
+    if(($a>5) xor ($b <5))
+        return 1;
+    else return -1;
+
+
+
+}
+
+$rez=comp($a,$b);
+echo $rez."<br>";
+
+$rez=comp2($a,$b);
+echo $rez."<hr>";
+
+
+function Fc($v) {echo $v." "; return false;}
+function T($v) {echo $v." "; return true;}
+
+IF ((Fc(0) || T(1) ) && (Fc(2)  || T(3))  || Fc(4) ) {
+    echo "true";
+} else echo " false";
+
+
+echo "<hr>";
+
+$a=array(1,3);
+$b= array(12,"shdl",3,"dakjkuh");
+$d= array(12,"shdl",3,"dakjkuh");
+ $c=$a+$b;
+
+
+foreach ( $a as $s)
+    echo $s." ";
+
+echo "<br>";
+foreach ( $b as $s)
+    echo $s." ";
+echo "<br>";
+$var="<ul>";
+foreach ( $c as $s)
+    $var.="<li>$s</li>";
+$var.="</ul>";
+echo "noul sir este: (a+b) $var"."<hr>";
+
+
+if($a===$b)
+    echo "sunt la fel <hr>";
+else
+    echo "nu sunt la fel<br>";
+if($d===$b)
+    echo "sunt la fel <hr>";
+else
+    echo "nu sunt la fel";
+
+if($d!==$b )
+    echo "not identical<hr>";
+else echo "identical<hr>";
+
+function foo(){
+    return true;
+}
+echo "AND<hr>";
+$myvar=false && foo();
+if($myvar==true){ echo  "rez is true";}
+else
+echo "rez is : false";
+echo "<hr>";
+$myvar=true && foo();
+if($myvar==true){ echo  "rez is true";}
+else
+    echo "rez is : false";
+
+echo "<hr>";
+$myvar=false and foo();
+if($myvar==true){ echo  "rez is true";}
+else
+    echo "rez is : false";
+echo "<hr>";
+$myvar=true and foo();
+if($myvar==true){ echo  "rez is true";}
+else
+    echo "rez is : false";
+echo "<hr>";
+echo "AND<hr>";
+$myvar=false || foo();
+if($myvar==true){ echo  "rez is true";}
+else
+    echo "rez is : false";
+echo "<hr>";
+$myvar=true || foo();
+if($myvar==true){ echo  "rez is true";}
+else
+    echo "rez is : false";
+
+echo "<hr>";
+$myvar=false or foo();
+if($myvar==true){ echo  "rez is true";}
+else
+    echo "rez is : false";
+echo "<hr>";
+$myvar=true or foo();
+if($myvar==true){ echo  "rez is true";}
+else
+    echo "rez is : false";
+
+
+
+
+
