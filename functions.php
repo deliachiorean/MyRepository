@@ -7,26 +7,22 @@
  */
 
 
-function f ()
-{
-    $argc = func_get_args();
-    $values = array();
-    foreach ($args as $ar) {
-        if (is_numeric($ar)) {
-            array_push($values, $ar);
-
+function f()
+    {
+        $sum = 0;
+        $n = 0;
+        for($i = 0; $i < func_num_args();$i++)
+        {
+            if((int)func_get_arg($i))
+            {
+                $sum+=func_get_arg($i);
+                $n++;
+            }
         }
+        echo $sum /$n;
     }
 
-    $ct = count($values);
-    $sum = array_sum($values);
-    if ($ct = 0)
-        echo "DivisionBy 0: You entered 0 number arguments!";
-    else {
-        echo $sum / $ct;
-    }
-}
- f(1, 'dsfsdf', 2,'fsdfsd');
+ f(1, 'dsfsdf', 2,'fsdfsd',4.5,"csca");
 
 
 //$asa= array(1, 2, "sdabd",1,2,3);
