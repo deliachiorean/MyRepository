@@ -74,5 +74,6 @@ if(file_exists("myFolder")) {
 
     }
 
+    echo getcwd();
 
 
