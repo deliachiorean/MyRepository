@@ -1,12 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: dchiorean
- * Date: 18/07/2018
- * Time: 16:22
- */
-
-// error handler function
 function myErrorHandler($errno, $errstr, $errfile, $errline)
 {
     if (!(error_reporting() & $errno)) {
@@ -17,23 +9,23 @@ function myErrorHandler($errno, $errstr, $errfile, $errline)
 
     switch ($errno) {
         case E_USER_ERROR:
-            echo "<b>My ERROR</b> [$errno] $errstr<br /><br>";
+            echo "<b>My ERROR</b> [$errno] $errstr<br />\n";
             echo "  Fatal error on line $errline in file $errfile";
-            echo ", PHP " . PHP_VERSION . " (" . PHP_OS . ")<br /><br>";
+            echo ", PHP " . PHP_VERSION . " (" . PHP_OS . ")<br />\n";
             echo "Aborting...<br />\n";
             exit(1);
             break;
 
         case E_USER_WARNING:
-            echo "<b>My WARNING</b> [$errno] $errstr<br /><br>";
+            echo "<b>My WARNING</b> [$errno] $errstr<br />\n";
             break;
 
         case E_USER_NOTICE:
-            echo "<b>My NOTICE</b> [$errno] $errstr<br /><br>";
+            echo "<b>My NOTICE</b> [$errno] $errstr<br />\n";
             break;
 
         default:
-            echo "Unknown error type: [$errno] $errstr<br /><br>";
+            echo "Unknown error type: [$errno] $errstr<br />\n";
             break;
     }
 
@@ -42,52 +34,50 @@ function myErrorHandler($errno, $errstr, $errfile, $errline)
 }
 
 // function to test the error handling
-function scale_by_log($vect, $scale)
+
+function checkType($var)
 {
-    if (!is_numeric($scale) || $scale <= 0) {
-        trigger_error("log(x) for x <= 0 is undefined, you used: scale = $scale", E_USER_ERROR);
-    }
+    if (!is_numeric($var)) {
+        trigger_error("You need to enter a numeric value ", E_USER_NOTICE);
 
-    if (!is_array($vect)) {
-        trigger_error("Incorrect input vector, array of values expected", E_USER_WARNING);
-        return null;
     }
-
-    $temp = array();
-    foreach($vect as $pos => $value) {
-        if (!is_numeric($value)) {
-            trigger_error("Value at position $pos is not a number, using 0 (zero)", E_USER_NOTICE);
-            $value = 0;
-        }
-        $temp[$pos] = log($scale) * $value;
-    }
-
-    return $temp;
 }
+
+function checkValue($var)
+{
+    if ($var <=100) {
+        trigger_error("You need to enter a value grater than 100", E_USER_WARNING);
+
+    }
+}
+
+function checkForFatal($array)
+{
+    foreach( $array as $value ) {
+        if( !is_numeric($value))
+            trigger_error("All array values need to be numeric ", E_USER_ERROR);
+
+    }
+}
+
+
 
 // set to the user defined error handler
 $old_error_handler = set_error_handler("myErrorHandler");
 
-// trigger some errors, first define a mixed array with a non-numeric item
-echo "vector a<br>";
-$a = array(2, 3, "foo", 5.5, 43.3, 21.11);
-print_r($a);
 
-// now generate second array
-echo "----<br>vector b - a notice (b = log(PI) * a)<br>";
-/* Value at position $pos is not a number, using 0 (zero) */
-$b = scale_by_log($a, M_PI);
-print_r($b);
 
-// this is trouble, we pass a string instead of an array
-echo "----<br>vector c - a warning<br>";
-/* Incorrect input vector, array of values expected */
-$c = scale_by_log("not array", 2.3);
-var_dump($c); // NULL
+echo "----value---- daskla<br>";
+checkType($value="daksla");
 
-// this is a critical error, log of zero or negative number is undefined
-echo "----<br>vector d - fatal error<br>";
-/* log(x) for x <= 0 is undefined, you used: scale = $scale" */
-$d = scale_by_log($a, -2.5);
-var_dump($d); // Never reached
-?>
+echo"<hr>";
+echo "---value--- 99<br>";
+checkValue($value=99);
+
+echo"<hr>";
+
+
+echo "----array ---- 2, 3, 'casdvavs', 5.5, 43.3, 21.11<br> ";
+checkForFatal(array(2, 3, "foo", 5.5, 43.3, 21.11));
+echo "<hr>";
+
