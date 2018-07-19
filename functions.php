@@ -24,10 +24,122 @@ function f()
 
  f(1, 'dsfsdf', 2,'fsdfsd',4.5,"csca");
 
+echo '<hr>';
+$var=2;$varr=2;
+function ff($var,&$varr){
+    $var++;
+    $varr++;
 
-//$asa= array(1, 2, "sdabd",1,2,3);
-//foreach($asa as $nr) {
-//    if (is_numeric($nr))
-//        echo "e numar<br>";
-//    else echo "is not a nubmer<br>";
-//}
+}
+
+
+echo "before $var,$varr";
+echo '<br>';
+
+ff($var,$varr);
+
+echo "after $var,$varr";
+echo '<hr>';
+
+
+
+
+function outsideF($var){
+
+
+    function insideF($myvar){
+        echo  "initialvalue: ".$myvar."<br>";
+    }
+    insideF($var);
+    $var++;
+    echo "this is incremented value : $var";
+
+
+}
+
+
+outsideF(25);
+
+echo "<hr>";
+
+
+function MyFunc($content) {
+
+    // The Nested Functions
+    function DoThis() {
+        return 'Yeah!';
+    }
+    function DoThat() {
+        return 'Nah!';
+    }
+
+    // The Main Function Script
+    if ($content == 'Yes yes') {
+        return DoThis();
+    } else {
+        return DoThat();
+    }
+
+}
+
+// The Main Script
+$string = 'Yes yes';
+
+echo MyFunc($string);
+
+
+echo "<hr>";
+function startParty(array $guests, array $food = null,$var=0) {
+        foreach ($guests as $items){
+            $var++;
+            echo $items."<br>";
+        }
+    }
+$guests = array("guest1", "guest12", "guest123", "guest1234");
+startParty($guests, null,0);
+
+echo "<hr>";
+
+
+/// lambda
+///
+
+function B($x,$y){
+    echo $x+$y();
+}
+
+ echo B(3,function(){
+     return 3;})."<hr>";
+
+
+//// constructori
+///
+
+class A
+{
+
+     function __construct()
+    {
+        print "Class A constructor\n";
+    }
+
+}
+
+class B extends A{
+     function __construct()
+    {
+        parent::__construct();
+        print "class B constructor\n";
+    }
+
+
+}
+
+$obj1=new A();
+ echo "<br>object A has just been created!<br>";
+$obj2=new B();
+echo "<br>object B has jus been created!<br>";
+
+
+
+
