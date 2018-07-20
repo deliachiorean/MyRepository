@@ -17,7 +17,11 @@ else{
     $_SESSION["lg"]="ro";
     echo "<a href='next.php'><br>Click to see if language has been set or not </a>";
 
+
+
 }
+
+
 
 
 ?>

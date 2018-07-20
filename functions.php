@@ -105,11 +105,12 @@ echo "<hr>";
 ///
 
 function B($x,$y){
-    echo $x+$y();
+    echo $x.=$y();
 }
 
  echo B(3,function(){
      return 3;})."<hr>";
+
 
 
 //// constructori
@@ -139,7 +140,5 @@ $obj1=new A();
  echo "<br>object A has just been created!<br>";
 $obj2=new B();
 echo "<br>object B has jus been created!<br>";
-
-
 
 
