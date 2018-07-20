@@ -14,7 +14,7 @@ $db="mydatabase";
 
 $connection=new mysqli($serverName,$user,$password,$db);
 if($connection->connect_error){
-    die("Connection failes".$connection->connect_error);
+    die("Connection failed".$connection->connect_error);
 
 }
 
