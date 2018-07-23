@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="42f057a6-b413-4db7-8afc-168c0ad03387" name="Default" comment=" data types">
-      <change afterPath="$PROJECT_DIR$/form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/formsubmt.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sqlinjectFixed.php" beforeDir="false" afterPath="$PROJECT_DIR$/sqlinjectFixed.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/formsubmt.php" beforeDir="false" afterPath="$PROJECT_DIR$/formsubmt.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,38 +19,50 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="cookieandsession.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cookieandsession.php">
+      <file leaf-file-name="ctrStruct.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ctrStruct.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="405">
+              <caret line="108" column="12" selection-start-line="108" selection-start-column="12" selection-end-line="108" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sessionpage.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sessionpage.php">
+      <file leaf-file-name="next.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/next.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="136">
+              <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="storemySession.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/storemySession.txt">
+      <file leaf-file-name="operators.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/operators.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="39" selection-start-column="39" selection-end-column="39" />
+            <state relative-caret-position="-2485">
+              <caret line="75" column="31" lean-forward="true" selection-start-line="75" selection-start-column="31" selection-end-line="75" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="databases.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/databases.php">
+      <file leaf-file-name="types.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/types.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="133">
+              <caret line="162" column="23" selection-start-line="162" selection-start-column="23" selection-end-line="162" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vars.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vars.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="362">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+              <folding>
+                <element signature="e#19#104#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -64,46 +76,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sqlinjectFixed.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sqlinjectFixed.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sqlinjectFixed.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="510">
+              <caret line="35" column="2" lean-forward="true" selection-start-line="35" selection-start-column="2" selection-end-line="35" selection-end-column="2" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="form.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/form.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="formsubmt.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="formsubmt.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/formsubmt.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-              <folding>
-                <element signature="e#788#806#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="336">
+              <caret line="36" column="17" lean-forward="true" selection-start-line="32" selection-end-line="36" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sessionfile.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sessionfile.txt">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="classes.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/classes.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="sessionpage2.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sessionpage2.php">
+      <file leaf-file-name="OOP.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OOP.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+            <state relative-caret-position="323">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
@@ -129,7 +133,6 @@
         <option value="$PROJECT_DIR$/op.html" />
         <option value="$PROJECT_DIR$/operators.php" />
         <option value="$PROJECT_DIR$/types.php" />
-        <option value="$PROJECT_DIR$/vars.php" />
         <option value="$PROJECT_DIR$/ctrStruct.php" />
         <option value="$PROJECT_DIR$/errors.php" />
         <option value="$PROJECT_DIR$/MyException.php" />
@@ -138,7 +141,6 @@
         <option value="$PROJECT_DIR$/errLog.php" />
         <option value="$PROJECT_DIR$/php.log" />
         <option value="$PROJECT_DIR$/multpleConstruct.php" />
-        <option value="$PROJECT_DIR$/classes.php" />
         <option value="$PROJECT_DIR$/ceva.php" />
         <option value="$PROJECT_DIR$/test.txt" />
         <option value="$PROJECT_DIR$/handlingFiles.php" />
@@ -157,8 +159,11 @@
         <option value="$PROJECT_DIR$/sqlInjection.html" />
         <option value="$PROJECT_DIR$/sqlInjection.php" />
         <option value="$PROJECT_DIR$/form.html" />
-        <option value="$PROJECT_DIR$/formsubmt.php" />
         <option value="$PROJECT_DIR$/sqlinjectFixed.php" />
+        <option value="$PROJECT_DIR$/vars.php" />
+        <option value="$PROJECT_DIR$/classes.php" />
+        <option value="$PROJECT_DIR$/OOP.php" />
+        <option value="$PROJECT_DIR$/formsubmt.php" />
       </list>
     </option>
   </component>
@@ -174,7 +179,7 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="92" />
     <option name="y" value="146" />
     <option name="width" value="1670" />
@@ -248,12 +253,12 @@
       <workItem from="1531988521436" duration="17455000" />
       <workItem from="1532067871896" duration="22528000" />
       <workItem from="1532097782448" duration="77000" />
-      <workItem from="1532327443236" duration="2910000" />
+      <workItem from="1532327443236" duration="9487000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99151000" />
+    <option name="totallyTimeSpent" value="105728000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -268,7 +273,7 @@
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32905984" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.04985755" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.06552707" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -314,16 +319,6 @@
     <option name="LAST_COMMIT_MESSAGE" value=" data types" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mypage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/dt.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -377,41 +372,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/constants.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1309">
-          <caret line="77" selection-start-line="77" selection-end-line="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/operators.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1394">
-          <caret line="87" column="23" selection-start-line="72" selection-end-line="87" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vars.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/types.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2754">
-          <caret line="162" column="23" selection-start-line="162" selection-start-column="23" selection-end-line="162" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ctrStruct.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1751">
-          <caret line="108" column="12" selection-start-line="108" selection-start-column="12" selection-end-line="108" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AnotherException.php" />
     <entry file="file://$PROJECT_DIR$/MyException.php" />
     <entry file="file://$PROJECT_DIR$/exceptions.php">
@@ -421,24 +381,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/errors.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/errLog.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="70" selection-start-line="17" selection-start-column="70" selection-end-line="17" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -464,27 +410,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cookieandsession.html" />
-    <entry file="file://$PROJECT_DIR$/multipleConstruct.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/next.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-109">
-          <caret line="118" column="7" lean-forward="true" selection-start-line="118" selection-start-column="7" selection-end-line="118" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/example_homepage.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-204" />
@@ -492,13 +417,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/curlexamples.html" />
     <entry file="file://$PROJECT_DIR$/uploadpict.php" />
-    <entry file="file://$PROJECT_DIR$/curl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/uploadpict.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -508,13 +426,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sessionfile.txt">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cookieandsession.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sessionpage2.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -552,13 +463,100 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/formsubmt.php">
+    <entry file="file://$PROJECT_DIR$/multipleConstruct.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="382">
+          <caret line="78" column="5" lean-forward="true" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/errors.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="632">
+          <caret line="118" column="7" lean-forward="true" selection-start-line="118" selection-start-column="7" selection-end-line="118" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/constants.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1306">
+          <caret line="77" selection-start-line="77" selection-end-line="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cookieandsession.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/curl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ctrStruct.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="108" column="12" selection-start-line="108" selection-start-column="12" selection-end-line="108" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/next.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/operators.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2485">
+          <caret line="75" column="31" lean-forward="true" selection-start-line="75" selection-start-column="31" selection-end-line="75" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/types.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="162" column="23" selection-start-line="162" selection-start-column="23" selection-end-line="162" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vars.php.orig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vars.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
           <folding>
-            <element signature="e#788#806#0#PHP" expanded="true" />
+            <element signature="e#19#104#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OOP.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
@@ -571,8 +569,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sqlinjectFixed.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="510">
+          <caret line="35" column="2" lean-forward="true" selection-start-line="35" selection-start-column="2" selection-end-line="35" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/formsubmt.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="36" column="17" lean-forward="true" selection-start-line="32" selection-end-line="36" selection-end-column="17" />
         </state>
       </provider>
     </entry>

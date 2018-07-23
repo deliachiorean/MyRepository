@@ -37,14 +37,13 @@ eval("\$str = \"$str\";");
 echo $str."<br>";
 $stmt->close();
 $conn->close();
-?>
 
-<?php
-//$string = 'cup';
-//$name = 'coffee';
-//$str = 'This is a $string with my $name in it.';
-//echo $str. "\n";
+//$val=6;
+//function increment(&$val){
+//    $val++;
+//}
+//increment($val);
+//
+//$str = 'This is what I inserted: $val';
 //eval("\$str = \"$str\";");
-//echo $str. "\n";
-//?>
-
+//echo $str."<br>";

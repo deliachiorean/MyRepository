@@ -18,3 +18,4 @@ class myClass{
 }
 
 $obj = new myClass();
+
