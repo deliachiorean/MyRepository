@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 /**
  * Created by PhpStorm.
@@ -23,3 +24,6 @@ function printall( array $myArray){
 printall($array);
 
 
+=======
+echo "helloworl"
+>>>>>>> newBr
