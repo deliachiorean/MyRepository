@@ -13,39 +13,36 @@ $db="mydatabase";
 $password="";
 
 
-$conn= mysqli_connect($serverName,$user,$password,$db);
+$conn= new mysqli($serverName,$user,$password,$db);
 if(mysqli_connect_errno()) {
-    die("Connection failed" . mysqli_connect_error());
+    die("Connection failed" . $conn->connect_error);
 }
 
+$username="username";
+$pass="passw";
+$nume="name";$nume=mysqli_real_escape_string($conn,$nume);
+$prenume= "prenume";
+$varsta=35;
+
+$stmt = $conn->prepare("INSERT INTO  t1(username, password,nume, prenume, varsta) values(?,?,?,?,?)");
+//$stmt = $conn->prepare("SELECT * FROM  t1(username, password,nume, prenume, varsta) WHERE nume like ?");
+$stmt->bind_param('ssssd', $username,$pass,$nume,$prenume,$varsta); // 's' specifies the variable type => 'string'
+
+$stmt->execute();
+
+echo "New records inserted";
+$stmt->close();
+$conn->close();
+?>
 
 
+<?php
+//    This example fetches data based on a key value supplied by a form. The user input is automatically quoted, so there is no risk of a SQL injection attack.-->
 
-        $param = " 'nume1' or 1=1";
-        $param = mysqli_real_escape_string($conn,$param);
-
-        echo $param;
-        $sql = "select * from t1 where nume=$param";
-
-        $result = $conn->query($sql);
-        echo "~~~~~~With mysqli ~~~~~~";
-        echo "<table border='solid, black, 1px'>";
-        echo "<tr>";
-        echo "<th>id</th>";
-        echo "<th>nume</th>";
-        echo "<th>prenume</th>";
-        echo "<th>username</th>";
-        echo "<th>password</th>";
-        echo "<th>varsta</th>";
-        echo "</tr>";
-        while ($row = mysqli_fetch_assoc($result)) {
-            echo "<tr>";
-            echo "<td>" . $row["id"] . "</td>";
-            echo "<td>" . $row["nume"] . "</td>";
-            echo "<td>" . $row["prenume"] . "</td>";
-            echo "<td>" . $row["username"] . "</td>";
-            echo "<td>" . $row["password"] . "</td>";
-            echo "<td>" . $row["varsta"] . "</td>";
-        }
-        echo "</table>";
-        $conn->close();
+//$stmt = $dbh->prepare("SELECT * FROM REGISTRY where name = ?");
+//if ($stmt->execute(array($_GET['name']))) {
+//    while ($row = $stmt->fetch()) {
+//        print_r($row);
+//    }
+//}
+//?>
