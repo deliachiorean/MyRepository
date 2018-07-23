@@ -12,4 +12,14 @@ $foo = 'andjasasdfka';
 $color = 'green';
 $fruit = 'apple';
 
+$array= array();
+array_push($array,$color,$fruit,'carrot','banana');
+
+function printall( array $myArray){
+    foreach ($myArray as $value)
+        echo "$value&nbsp";
+}
+
+printall($array);
+
 
