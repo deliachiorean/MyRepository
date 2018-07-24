@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="42f057a6-b413-4db7-8afc-168c0ad03387" name="Default" comment=" data types">
-      <change afterPath="$PROJECT_DIR$/OOP/clase.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/Conn.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/Singleton.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/Animal.php" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/Animal.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multipleConstruct.php" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/multipleConstruct.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myFolder/fisier0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/myFolder/fisier0.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myFolder/fisier1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/myFolder/fisier1.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,7 +17,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.34317636">
+    <splitter split-orientation="horizontal" split-proportion="0.41739824">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="next.php" pinned="false" current-in-tab="false">
@@ -35,17 +32,8 @@
           <file leaf-file-name="Animal.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/OOP/Animal.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="360">
-                  <caret line="78" column="30" selection-start-line="78" selection-start-column="30" selection-end-line="78" selection-end-column="30" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="multipleConstruct.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/OOP/multipleConstruct.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="272">
-                  <caret line="77" column="50" lean-forward="true" selection-start-line="77" selection-start-column="50" selection-end-line="77" selection-end-column="50" />
+                <state relative-caret-position="553">
+                  <caret line="86" column="41" selection-start-line="86" selection-start-column="41" selection-end-line="86" selection-end-column="41" />
                 </state>
               </provider>
             </entry>
@@ -108,11 +96,29 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="clase.php" pinned="false" current-in-tab="true">
+          <file leaf-file-name="clase.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/OOP/clase.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="394">
-                  <caret line="54" column="22" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
+                <state relative-caret-position="306">
+                  <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Conn.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/OOP/Conn.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="535">
+                  <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Singleton.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/OOP/Singleton.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="569">
+                  <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
                 </state>
               </provider>
             </entry>
@@ -177,8 +183,11 @@
         <option value="$PROJECT_DIR$/myFolder/file2.txt" />
         <option value="$PROJECT_DIR$/myFolder/fisier1.txt" />
         <option value="$PROJECT_DIR$/handlingFiles.php" />
-        <option value="$PROJECT_DIR$/OOP/Animal.php" />
         <option value="$PROJECT_DIR$/OOP/clase.php" />
+        <option value="$PROJECT_DIR$/OOP/Animal.php" />
+        <option value="$PROJECT_DIR$/Singleton.php" />
+        <option value="$PROJECT_DIR$/OOP/Conn.php" />
+        <option value="$PROJECT_DIR$/OOP/Singleton.php" />
       </list>
     </option>
   </component>
@@ -275,15 +284,15 @@
       <workItem from="1532067871896" duration="22528000" />
       <workItem from="1532097782448" duration="77000" />
       <workItem from="1532327443236" duration="10844000" />
-      <workItem from="1532413956578" duration="9642000" />
+      <workItem from="1532413956578" duration="13743000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116727000" />
+    <option name="totallyTimeSpent" value="120828000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1590604" />
@@ -295,7 +304,7 @@
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32905984" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.07977208" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.0" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -333,6 +342,32 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -341,14 +376,6 @@
     <option name="LAST_COMMIT_MESSAGE" value=" data types" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/op.html" />
-    <entry file="file://$PROJECT_DIR$/myPage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dt.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -607,24 +634,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/OOP/clase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OOP/Conn.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="535">
+          <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/OOP/multipleConstruct.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="77" column="50" lean-forward="true" selection-start-line="77" selection-start-column="50" selection-end-line="77" selection-end-column="50" />
+        <state relative-caret-position="436">
+          <caret line="87" column="32" lean-forward="true" selection-start-line="87" selection-start-column="32" selection-end-line="87" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/OOP/Animal.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="78" column="30" selection-start-line="78" selection-start-column="30" selection-end-line="78" selection-end-column="30" />
+        <state relative-caret-position="553">
+          <caret line="86" column="41" selection-start-line="86" selection-start-column="41" selection-end-line="86" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OOP/clase.php">
+    <entry file="file://$PROJECT_DIR$/OOP/Singleton.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="54" column="22" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
+        <state relative-caret-position="569">
+          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
         </state>
       </provider>
     </entry>
