@@ -26,3 +26,37 @@ class Zip implements Foo {
 $zip = new Zip();
 $zip->doFoo();
 $zip->doBar();
+
+
+interface MyInterface{
+    public function save($item);
+    public function delete($id);
+
+}
+trait MyTrait{
+    public function printElems(array $myarray){
+        foreach ($myarray as $value){
+            echo $value."<br>";
+        }
+
+    }
+}
+if(trait_exists('MyTrait')) {
+
+    class MyClass implements MyInterface
+    {
+        use MyTrait;
+
+        public function save($item)
+        {
+            // TODO: Implement save() method.
+        }
+
+        public function delete($id)
+        {
+            // TODO: Implement delete() method.
+        }
+
+
+    }
+}

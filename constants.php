@@ -82,8 +82,11 @@ if($newVar==$var )
     echo "we can't access insideVar!";
 
 else
-    echo $newVar;
+    echo $newVar."<hr>";
 
+//
+//echo 'A $variable_literal that I have'.PHP_EOL.'looks better than'.PHP_EOL;
+//echo 'this other $one'."\n";
 
 
 ?>

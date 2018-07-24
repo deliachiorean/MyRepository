@@ -33,9 +33,9 @@ if(file_exists("myFolder")) {
         $myFileName="file" . $i . ".txt";
 
         if(file_exists($myFileName)) {
-            $myFile = fopen($myFileName, "wr") or die("Unable to open file!");
-            $txt = "some text here blahblahab";
-            fwrite($myFile, $txt);
+            $myFile = fopen($myFileName, "a") or die("Unable to open file!");
+                $txt = "some text here blahblahab";
+            fwrite($myFile,"\n".$txt);
             fclose($myFile);
         }
     }
