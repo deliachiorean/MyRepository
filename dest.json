@@ -1,0 +1,28 @@
+{
+    "moments_staging": [
+        {
+            "PutRequest":
+                {
+                    "Item": {
+                        "key": {"S": "food_1"},
+                        "uid": {"N": "1"},
+                        "class": {"S": "food"},
+                        "deprecated": {"S": "false"},
+                        "name": {"S": "orzo"}
+                    }
+                }
+        },
+        {
+            "PutRequest":
+                {
+                    "Item": {
+                        "key": {"S": "food_2"},
+                        "uid": {"N": "2"},
+                        "class": {"S": "food"},
+                        "deprecated": {"S": "false"},
+                        "name": {"S": "some other orzo"}
+                    }
+                }
+        }
+    ]
+}

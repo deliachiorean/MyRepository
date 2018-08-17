@@ -1,0 +1,128 @@
+<html>
+<body>
+
+<script type="text/javascript">
+    <!--
+    let count = 0;
+    document.write("Starting Loop -- WHILE<br>");
+
+    while (count < 10){
+        document.write("Current Count : " + count + "<br />");
+        count++;
+    }
+
+    document.write("Loop stopped!");
+    //-->
+
+    let ct = 0;
+
+    document.write("<hr>Starting Loop -- DO WHILE" + "<br />");
+    do{
+        document.write("Current Count : " + ct + "<br />");
+        ct++;
+    }
+
+    while (ct < 5);
+    document.write ("Loop stopped!");
+    //-->
+
+
+    let counter;
+    document.write("<hr>Starting Loop -- FOR" + "<br />");
+
+    for(counter = 0; counter < 10; counter++){
+        document.write("Current Count : " + counter );
+        document.write("<br />");
+    }
+
+    document.write("Loop stopped!<hr>");
+
+    let aProperty;
+    document.write("Navigator Object Properties<br /> ");
+
+    for (aProperty in navigator) {
+        document.write(aProperty);
+        document.write("<br />");
+    }
+    document.write ("Exiting from the loop!<hr>");
+
+    document.write("Using for in to go through an array<br>");
+
+        myArray=[1,2,4,5,6,"mystr"];
+        let currentItem;
+        for(currentItem in myArray){
+            document.write(myArray[currentItem]);
+            document.write("<br>");
+        }
+
+
+    var x = 1;
+    document.write("<hr>Entering the loop<br /> ");
+
+    while (x < 20)
+    {
+        //document.write(x);
+        if (x == 5){
+            break; // breaks out of loop completely
+        }
+        x = x + 1;
+        document.write(x + "<br>");
+    }
+
+    document.write("Exiting the loop!<hr> ");
+
+
+    var y = 1;
+    document.write("Entering the loop<br /> ");
+
+    while (y < 10)
+    {
+        y = y+ 1;
+
+        if (y == 5){
+            continue; // skip rest of the loop body
+        }
+        document.write( y + "<br />");
+    }
+
+    document.write("Exiting the loop!<hr> ");
+
+    document.write("Entering the loop!<br /> ");
+    outerloop: // This is the label name
+
+        for (let i = 0; i <=5; i++)
+        {
+            document.write("Outerloop: " + i + "<br />");
+            innerloop:
+                for (let j = 0; j < 5; j++)
+                {
+                    if (j > 3 ) break ; // Quit the innermost loop
+                    if (i == 2) break innerloop; // Do the same thing
+                    if (i == 4) {
+                        break innerloop;
+                        continue outerloop;
+                    }// Quit the inner loop
+                    document.write("&nbsp&nbsp&nbsp&nbsp Innerloop: " + j + " <br />");
+                }
+        }
+
+    document.write("Exiting the loop!<hr> ");
+
+    var a = ["a", "b", "c"];
+    document.write("Using toString function over an array: "+ a.toString());
+    let lengthOfNewArray=a.push("d","e","f");
+    document.write("<br>The new length of the array after pushing several items: "+lengthOfNewArray);
+    a.unshift("w","z","y");
+    document.write("<br>The new length of the array after unshifting several items: "+a.length+"; the elements are the following: ");
+    for(e in a){
+        document.write(a[e]+"&nbsp");
+    }
+    document.write("<br>Using FOREACH <br>")
+    a.forEach(function(entry) {
+        document.write(entry+"<br>");
+    });
+</script>
+
+
+</body>
+</html>

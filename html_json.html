@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+
+<div id="myD" hidden>
+    <button>I am a paragraph.
+    </button>
+    <div>
+        <p>
+            Some text here :)
+        </p>
+
+    </div>
+</div>
+
+<p>Click the button get the HTML content of the p element.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo">This is what i got from the other div</p>
+
+<script>
+    function myFunction() {
+        var x = document.getElementById("myD").innerHTML;
+        document.getElementById("demo").innerHTML = x;
+    }
+</script>
+<label>Name: </label>
+<label id="name"></label><br>
+<label>Age: </label>
+<label id="age"></label><br>
+<label>City: </label>
+<label id="city"></label>
+<script>
+    var myJson='{"name": "MyName", "age": 20, "city": "Cluj-Napoca"}';
+    var myParesedJson=JSON.parse(myJson);
+    document.getElementById("name").innerHTML=myParesedJson.name;
+
+    document.getElementById("age").innerHTML=myParesedJson.age;
+
+    document.getElementById("city").innerHTML=myParesedJson.city;
+
+</script>
+
+
+
+
+</body>
+</html>

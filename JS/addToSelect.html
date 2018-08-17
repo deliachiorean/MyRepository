@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+        function removeOption() {
+            var x = document.getElementById("mySelect");
+            x.remove(x.selectedIndex);
+        }
+
+        function addOption() {
+
+            let newelem= document.myForm.inputWord.value.toString();
+            select = document.getElementById('mySelect');
+            var opt = document.createElement('option');
+            opt.appendChild(document.createTextNode(newelem));
+            opt.value=newelem;
+            select.appendChild(opt);
+
+        }
+
+        function getOption() {
+            var obj = document.getElementById("mySelect");
+            document.getElementById("demo").innerHTML =
+                obj.options[obj.selectedIndex].text;
+        }
+
+        function myFunction() {
+            document.getElementById("myForm").reset();
+        }
+    </script>
+</head>
+<body>
+
+<form id="myForm" name="myForm">
+    <select id="mySelect">
+        <option>Apple</option>
+        <option>Pear</option>
+        <option>Banana</option>
+        <option>Orange</option>
+    </select>
+
+    <input type="button" onclick="removeOption()" value="Remove the selected option">
+
+    <input type="text" name="inputWord" id="inputWord" >
+    <input type="button" onclick="addOption()" value="Add the option from the input ">
+    <input type="button" onclick="getOption()" value="Click Me!">
+    <input type="button" onclick="myFunction()" value="Reset">
+</form>
+
+
+
+<p id="demo"></p>
+</body>
+</html>

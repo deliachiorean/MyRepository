@@ -1,0 +1,51 @@
+<!--Creating Array Objects
+The following example shows creation of an array object in javascript using JSON, save the below code as json_array_object.htm
+-->
+<html>
+   <head>
+      <title>Creation of array object in javascript using JSON</title>
+
+      <script language = "javascript" >
+
+    document.writeln("<h2>JSON array object</h2>");
+
+         var books = { "Pascal" : [
+            { "Name"  : "Pascal Made Simple", "price" : 700 },
+            { "Name"  : "Guide to Pascal", "price" : 400 }],
+
+            "Scala"  : [
+               { "Name"  : "Scala for the Impatient", "price" : 1000 },
+               { "Name"  : "Scala in Depth", "price" : 1300 }]
+         }
+
+         var i = 0
+         document.writeln("<table border = '2'>");
+
+         for(i = 0;i<books.Pascal.length;i++){
+             document.writeln("<tr>");
+             //document.writeln("<table border=' 1px solid black' >");
+             document.writeln("<td><b>Name</b></td><td >" + books.Pascal[i].Name+"</td>");
+             document.writeln("<td><b>Price</b></td><td >" + books.Pascal[i].price +"</td>");
+             //document.writeln("</table>");
+             document.writeln("</tr>");
+         }
+
+         for(i = 0;i<books.Scala.length;i++){
+             document.writeln("<tr>");
+             //document.writeln("<table border=' 1px solid black' >");
+             document.writeln("<td><b>Name</b></td><td >" + books.Scala[i].Name+"</td>");
+             document.writeln("<td><b>Price</b></td><td >" + books.Scala[i].price+"</td>");
+             //document.writeln("</table>");
+             document.writeln("</tr>");
+         }
+
+         document.writeln("</table>");
+
+      </script>
+
+   </head>
+
+   <body>
+   </body>
+
+</html>

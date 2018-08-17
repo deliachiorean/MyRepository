@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AjaxExempleWithJson</title>
+</head>
+<body>
+<button id="btn1">GetData</button>
+<br>
+<div id="data"></div>
+<script>
+    document.getElementById("btn1").addEventListener('click',loadData);
+
+    function loadData(){
+        var xhr= new XMLHttpRequest();
+        xhr.open('GET','source.json',true);
+        console.log('READYSTATE: ', xhr.readyState);
+        xhr.onload=function(){
+            if(this.status==200){
+                let data=JSON.parse(this.responseText);
+                let output='';
+                for(let i in data) {
+                    output += '<ul>' + '<li>Key: ' + data[i].key + '</li>' +
+                        '<li>Id: ' + data[i].uid + '</li>' +
+                        '<li>Class: ' + data[i].class + '</li>' +
+                        '<li>Deprecated: ' + data[i].deprecated + '</li>' +
+                        '<li>Name: ' + data[i].name + '</li>' +
+                        '</ul>';
+                }
+                document.getElementById('data').innerHTML=output;
+
+            }
+        }
+        xhr.send();
+    }
+</script>
+
+</body>
+</html>

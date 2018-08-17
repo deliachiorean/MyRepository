@@ -1,0 +1,16 @@
+[
+    {
+    "key": "food_1",
+    "uid": 1,
+    "class": "food",
+    "deprecated": false,
+    "name": "orzo"
+    },
+    {
+    "key": "food_2",
+    "uid": 2,
+    "class": "food",
+    "deprecated": false,
+    "name": "some other orzo"
+    }
+]

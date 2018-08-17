@@ -1,0 +1,96 @@
+<html>
+<head>
+
+    <script type="text/javascript">
+        function sayHello()
+        {
+            alert ("Hello there!");
+        }
+    </script>
+    <style>
+        div{
+            background-color: darkred;
+        }
+    </style>
+
+</head>
+<body>
+
+<p>Click the following button to call the function</p>
+
+<form>
+    <input type="button" onclick="sayHello()" value="Say Hello">
+</form>
+<hr>
+    <script type="text/javascript">
+        function sayHelloAlert()
+        {
+            let x=document.myForm;
+
+            alert(x.name.value + " is " + x.age.value + " years old.");
+        }
+    </script>
+
+<p>Click the following button to call the function</p>
+
+<form  name="myForm">
+    <label for="name">Name</label>
+    <input type="text" name="name" id="name">
+    <label for="age">Age</label>
+    <input type="text" name="age" id="age">
+
+    <input type="button" onclick="sayHelloAlert()" value="Say Hello">
+</form>
+
+
+    <script type="text/javascript">
+        <!--
+        function over() {
+            document.write ("Mouse Over");
+        }
+
+        function out() {
+            document.write ("Mouse Out");
+        }
+
+        //-->
+    </script>
+
+
+<p>Bring your mouse inside the division to see the result:</p>
+
+<div onwheel="over()" ondblclick="out()">
+    <h2> This is inside the div </h2>
+</div>
+
+
+
+
+
+
+<script type="text/javascript">
+    var dt = new Date("December 25, 1995 23:15:00");
+    document.write("\"December 25, 1995 23:15:00\" - > using getFullYear() : " + dt.getFullYear() );
+
+
+    document.write("<hr>25.36598 and ceil() function on the number: "+ Math.ceil(25.36598));
+    document.write("<br>-25.36598 and ceil() function on the number: "+ Math.ceil(-25.36598));
+
+    document.write("<br>2 and 7 and pow() function on the numbers: "+ Math.pow(2,7));
+
+    document.write("<hr>using reduce function <br>")
+    let total = [0, 1, 2, 3].reduce(function(a, b){ return a + b; });
+    document.write("total is : " + total )
+
+    document.write("<hr>using join function <br>")
+    let arrray = [0, 1, 2, 3].join(";");
+    document.write("total is : " + arrray );
+</script>
+
+
+
+
+
+
+</body>
+</html>

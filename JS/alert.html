@@ -1,0 +1,75 @@
+<html>
+<head>
+
+    <script type="text/javascript">
+        <!--
+        function Warn() {
+            alert ("This is a warning message!");
+            document.getElementById('div').innerHTML = "This is a warning message!";
+        }
+        //-->
+    </script>
+
+
+<p>Click the following button to see the result: </p>
+
+<form>
+    <input type="button" value="Click Me" onclick="Warn();" />
+</form>
+
+    <div id="div" ></div>
+
+
+    <script type="text/javascript">
+    <!--
+    function getConfirmation(){
+        var retVal = confirm("Do you want to continue ?");
+        if( retVal == true ){
+            document.getElementById('myDiv').innerHTML = "User wants to continue!";
+            return true;
+        }
+        else{
+            document.getElementById('myDiv').innerHTML = "User does not want to continue!";
+
+            return false;
+        }
+    }
+    //-->
+</script>
+
+</head>
+<body>
+<p>Click the following button to see the result: </p>
+
+<form>
+    <input type="button" value="Click Me" onclick="getConfirmation();" />
+</form>
+
+
+<div id="myDiv" ></div>
+
+
+
+<!--////////////////////////////////////////-->
+
+<script type="text/javascript">
+    <!--
+    function getValue(){
+        prompt("Enter your name : ", "your name here");
+        document.getElementById("divForPrompt").innerHTML="You have entered : "+ prompt.value ;
+    }
+    //-->
+</script>
+
+
+<p>Click the following button to see the result: </p>
+
+<form>
+    <input type="button" value="Click Me" onclick="getValue();" />
+</form>
+
+<div id="divForPrompt"></div>
+
+
+</body>
+</html>

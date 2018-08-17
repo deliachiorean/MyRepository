@@ -1,0 +1,76 @@
+<html>
+
+<head>
+    <title>JavaScript Animation</title>
+
+    <script type="text/javascript">
+        <!--
+        var imgObj = null;
+        var imgObject = null;
+        var animate ;
+
+        function init() {
+            imgObj = document.getElementById('myImage');
+            imgObj.style.position = 'relative';
+            imgObj.style.left = '0px';
+
+            imgObject = document.getElementById('myImg');
+            imgObject.style.position = 'relative';
+            imgObject.style.left = '0px';
+        }
+
+        function moveRight(){
+            imgObj.style.left = parseInt(imgObj.style.left) + 10 + 'px';
+        }
+        function moveR(){
+            imgObject.style.left = parseInt(imgObject.style.left) + 10 + 'px';
+            animate = setTimeout(moveR,20); // call moveRight in 20msec
+        }
+
+        function stop(){
+            clearTimeout(animate);
+            imgObject.style.left = '0px';
+        }
+
+
+
+        window.onload =init;
+        //-->
+    </script>
+
+</head>
+
+<body>
+
+<form>
+    <img id="myImage" src="phpPIc.jpg" width="300" height="200" onmouseover="moveRight()">
+    <p>Click button below to move the image to right or move the mouse on and off the picture</p>
+    <input type="button" value="Click Me" onclick="moveRight();">
+    <br><br>
+    <img id="myImg" src="phpimg.png" width="300" height="200">
+    <p>Click the buttons below to handle animation</p>
+    <input type="button" value="Start" onclick="moveR();" >
+    <input type="button" value="Stop" onclick="stop();" >
+</form>
+
+
+<script type="text/javascript">
+    <!--
+    if(document.images){
+        var image1 = new Image(); // Preload an image
+        image1.src = "phpElef.png";
+        var image2 = new Image(); // Preload second image
+        image2.src = "phpimg.png";
+    }
+    //-->
+</script>
+
+<p>Move your mouse over the image to see the result</p>
+
+<a href="#" onMouseOver="document.myImage.src=image2.src;" onMouseOut="document.myImage.src=image1.src;">
+    <img name="myImage" src="phpElef.png" width="300" height="200">
+</a>
+
+
+</body>
+</html>

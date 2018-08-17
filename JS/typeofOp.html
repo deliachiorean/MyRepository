@@ -1,0 +1,49 @@
+<html>
+<body>
+
+<script type="text/javascript">
+    <!--
+    var a = 10;
+    var b = "String";
+    var linebreak = "<br />";
+
+    result = (typeof b == "string" ? "B is String" : "B is Numeric");
+    document.write("Result => ");
+    document.write(result);
+    document.write(linebreak);
+
+    result = (typeof a == "string" ? "A is String" : "A is Numeric");
+    document.write("Result => ");
+    document.write(result);
+    document.write(linebreak);
+
+
+    document.write("<hr>");
+
+
+    //-->
+</script>
+<label for="myInp">Introduceti un numar</label>
+<input id="myInp" type="text" >
+<button  onclick="myFunction()">Next</button>
+<button  onclick="reset()">Reset</button>
+
+<script>
+    function myFunction() {
+        let myVar=document.getElementById("myInp").value;
+        let nr= parseInt(myVar);
+
+        if(nr > 5)
+            document.getElementById("myInp").value = "Valoare prea mare";
+        else
+            document.getElementById("myInp").value = "Valoare prea mica";
+    }
+    function reset(){
+        document.getElementById("myInp").value = "";
+
+    }
+</script>
+
+
+</body>
+</html>

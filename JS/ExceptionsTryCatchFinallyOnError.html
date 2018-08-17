@@ -1,0 +1,90 @@
+<html>
+
+<head>
+
+    <script type="text/javascript">
+        <!--
+        function myFunc()
+        {
+            var a=100;
+            try {
+                alert("Value of variable a is : " + a );
+            }
+
+            catch ( e ) {
+                alert("Error: " + e.description );
+            }
+            finally {
+                alert("You have clicked the button! ");
+            }
+        }
+        //-->
+    </script>
+
+</head>
+
+<body>
+<p>Click the following to see the result:</p>
+
+<form>
+    <input type="button" value="Click Me" onclick="myFunc();" />
+</form>
+
+
+
+    <script type="text/javascript">
+        <!--
+        function myFunction()
+        {
+            var a = 100;
+            var b = 5;
+
+            try{
+                if ( b == 0 ){
+                    throw( "Divide by zero error." );
+                }
+
+                else
+                {
+                    var c = a / b;
+                    alert("The result of division (100/5) is : "+ c);
+                }
+            }
+
+            catch ( e ) {
+                alert("Error: " + e );
+            }
+        }
+        //-->
+    </script>
+
+
+<p>Click the following to see the result:</p>
+
+<form>
+    <input type="button" value="Click Me" onclick="myFunction();" />
+</form>
+
+
+
+
+<script type="text/javascript">
+    <!--
+    window.onerror = function (msg, url, line) {
+        alert("Message : " + msg );
+        alert("url : " + url );
+        alert("Line number : " + line );
+    }
+    //-->
+</script>
+
+
+<p>Click the following to see the result:</p>
+
+<form>
+    <input type="button" value="Click Me" onclick="myF();" />
+</form>
+
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+html {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 10px;
+
+
+}
+
+h2 {
+    font-size: 2rem;
+    color:#8B475D;
+}
+
+ul,ol,dl,p {
+    font-size: 1.5rem;
+}
+
+li, p {
+    line-height: 1.5;
+}
+
+/* Description list styles */
+
+
+dd, dt {
+    line-height: 1.5;
+}
+
+dt {
+    font-weight: bold;
+}
+
+dd {
+    margin-bottom: 1.5rem;
+}
+table, td, tr, th{
+    font-size: large;
+    border: 1px solid olivedrab ;
+
+}

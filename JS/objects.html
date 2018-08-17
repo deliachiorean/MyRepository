@@ -1,0 +1,52 @@
+<html>
+<head>
+    <title>User-defined objects</title>
+
+    <script type="text/javascript">
+        // Define a function which will work as a method
+        function addPrice(amount){
+            with(this){
+                price = amount;
+            }
+        }
+        function addGenre(genre){
+            with(this){
+                gen = genre;
+            }
+        }
+
+        function book(title, author){
+            this.title = title;
+            this.author  = author;
+            this.price = 0;
+            this.addPrice = addPrice; // Assign that method as property.
+            this.gen="";
+            this.addGenre=addGenre;
+        }
+    </script>
+
+</head>
+<body>
+
+<script type="text/javascript">
+    let myBook = new book("MyBook", "MyAuthor");
+    myBook.addPrice(100);
+    myBook.addGenre("roman");
+    book.prototype.rating=0;
+    myBook.rating=5;
+
+    document.write("Book title is : " + myBook.title + "<br>");
+    document.write("Book author is : " + myBook.author + "<br>");
+    document.write("Book price is : " + myBook.price + "<br>");
+    document.write("Book genre is : " + myBook.gen + "<br>");
+    document.write("Book rating is : " + myBook.rating + "<br>");
+    document.write("<hr> Using constructor method : <br> num.constructor() is : ".fontcolor("darkred") + myBook.constructor);
+    document.write("<br>");
+    document.write("Using concat method :" + myBook.title.concat("  by  ", myBook.author));
+</script>
+
+
+</body>
+</html>
+
+
