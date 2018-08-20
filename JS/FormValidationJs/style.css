@@ -1,0 +1,46 @@
+#wrapper {
+    width: 30%;
+    margin: 50px auto;
+    padding: 50px;
+    background: steelblue;
+    border: 1px solid black;
+    border-radius: 5px;
+
+}
+form {
+    margin: 30px auto;
+}
+.textInput {
+
+    height: 28px;
+    margin: 2px;
+    border: 1px solid darkblue;
+    font-size: 1.2em;
+    padding: 5px;
+    width: 95%;
+    border-radius: 3px;
+}
+.textInput:focus {
+    outline: none;
+}
+.btn {
+    width: 98.6%;
+    border: none;
+    margin-top: 5px;
+    color: white;
+    background-color: #15317E;
+    border-radius: 5px;
+    padding: 12px;
+    text-shadow: lightskyblue;
+    font-style:oblique ;
+}
+body{
+
+
+
+    background-image: url("nyCity.jpg");
+    background-size: 100%;
+
+
+
+}
