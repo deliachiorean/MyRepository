@@ -34,13 +34,13 @@ form {
     text-shadow: lightskyblue;
     font-style:oblique ;
 }
-body{
-
-
+body {
 
     background-image: url("nyCity.jpg");
     background-size: 100%;
 
-
+}
+#result{
+    color: white;
 
 }

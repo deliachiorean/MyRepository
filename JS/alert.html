@@ -52,15 +52,6 @@
 
 <!--////////////////////////////////////////-->
 
-<script type="text/javascript">
-    <!--
-    function getValue(){
-        prompt("Enter your name : ", "your name here");
-        document.getElementById("divForPrompt").innerHTML="You have entered : "+ prompt.value ;
-    }
-    //-->
-</script>
-
 
 <p>Click the following button to see the result: </p>
 
@@ -69,6 +60,16 @@
 </form>
 
 <div id="divForPrompt"></div>
+
+<script type="text/javascript">
+    <!--
+    function getValue(){
+        let user=prompt("Enter your name : ", "your name here");
+        document.getElementById("divForPrompt").innerHTML="Hello  "+ user+"!";
+        console.log(user);
+    }
+    //-->
+</script>
 
 
 </body>

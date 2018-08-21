@@ -36,6 +36,10 @@
         if(nr > 5)
             document.getElementById("myInp").value = "Valoare prea mare";
         else
+            if( nr==5){
+            document.getElementById("myInp").value="Ati ghicit!";
+            }
+            else
             document.getElementById("myInp").value = "Valoare prea mica";
     }
     function reset(){

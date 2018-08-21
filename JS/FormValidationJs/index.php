@@ -4,7 +4,7 @@
 </head>
 <link rel="stylesheet" href="style.css">
 <body>
-<div>
+<div id="result">
     Form completed succesfully! :)
 </div>
 </body>
